@@ -1,8 +1,13 @@
-body {
+   *{
+    margin: 0px;
+    padding: 0px;
+  }
+ 
+  body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     background: #1e1e2f;
     font-family: Arial, sans-serif;
 }
@@ -11,8 +16,9 @@ body {
     background: #2d2d44;
     padding: 20px;
     border-radius: 15px;
+    margin-top: 71px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    width: 350px;
+    width: 340px;
 }
 
 .calculator h1 {
@@ -41,7 +47,7 @@ body {
 }
 
 button {
-    height: 60px;
+    height: 52px;
     font-size: 20px;
     border: none;
     border-radius: 10px;
